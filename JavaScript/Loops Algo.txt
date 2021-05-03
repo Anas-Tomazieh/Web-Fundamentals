@@ -1,0 +1,15 @@
+1) Print Odd Number from 1-20: The Code:
+for(var i = 1;i<=20;i++){
+if(i%2!=0){
+console.log(i)
+}
+}
+........
+2) Sum and Print 1-5
+The Code:
+var sum = 0;
+for(var i=1;i<=5;i++){
+sum = sum+i;
+console.log("The Num is",i)
+console.log("The Sum is",sum)
+}

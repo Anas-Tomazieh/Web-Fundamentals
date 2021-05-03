@@ -1,0 +1,75 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+#main{
+    background-color: #f9f9f9;
+    width:1000px;
+    margin: auto;
+
+}
+#header{
+    padding:10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#upper{
+    margin: 20px;
+    background:linear-gradient(#1f0f13,#6f5964);
+    display: flex;
+    justify-content: space-evenly;
+ 
+}
+#photo{
+    border: 5px solid #7d7377;
+    margin: 15px;
+}
+#girlPhoto{
+    height: 200px;
+}
+#a{
+    background-color:#8f8e99;
+}
+#reading{
+   height: 200px;
+    width: 450px;
+    background:linear-gradient(to bottom right, #fefefe, #dbcbda);
+    margin: 15px;
+}
+#photos{
+  
+    display: flex;
+    margin: 10px;
+    padding:25px;
+    background:linear-gradient(#1f0f13,#6f5964);
+
+
+}
+.la{
+    padding:10px;
+    margin: 10px;
+    background:linear-gradient(to bottom right, #fefefe, #dbcbda);
+
+}
+.photogroub{
+    justify-content: space-between;
+    width: 220px;
+    height: 200px;
+    padding:15px 0px 0px 12px;
+    justify-items: center;
+    flex-wrap: nowrap;
+    background:linear-gradient(to bottom right, #fefefe, #dbcbda);
+
+    
+    
+}
+button{
+    margin-left: 70px ;
+    padding: 20px;
+    background-color: green;
+}
+footer{
+    background:linear-gradient(to bottom right, #fefefe, #dbcbda);
+    text-align: center;
+}

@@ -1,0 +1,66 @@
+1)
+var x = prompt("please enter the number");
+var sum = sigma(x);
+console.log(sum)
+function sigma (x){
+var sum=0;
+for(var i=1;i<=x;i++){
+sum = sum+i
+}
+return sum;
+}
+.........................................................
+2) 
+var x = prompt("please enter the number");
+var fac = factorial(x);
+console.log("The Factorial is",fac)
+function factorial (x){
+var fac = 1;
+for(var i=x;i>=1;i--){
+fac = fac * i;
+}
+return fac;
+}
+................................................................
+3) 
+var x = prompt("please enter the number");
+sum = Fibo (x);
+console.log(sum)
+function Fibo(x){
+var sum = 0;
+for(var i=0;i<x;i++){
+sum = sum+i
+}
+return sum;
+}
+..............................................................
+4) 
+var arr = ['anas'];
+var se = second(arr);
+console.log(se)
+function second(arr){
+if(arr.length<=2){
+console.log("null")
+}
+for(var i=arr.length-1;i>=0;i--){
+}
+return arr[arr.length-2];
+}
+..............................
+5)
+var arr= [5,2,3,6,4,9,7,4,5,3,2,77,888,55,666,4444];
+num = 3;
+Anas (arr,num);
+function Anas(arr,num){
+for(var i=arr.length-1;i>=0;i--){
+
+}
+console.log(arr[arr.length-num]);
+}
+........................................
+6)
+..................
+7)
+............
+
+

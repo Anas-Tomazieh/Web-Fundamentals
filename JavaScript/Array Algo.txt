@@ -1,0 +1,20 @@
+1) The Code IS:
+var testArr = [6,3,5,1,2,4];
+var sum = 0;
+for(var i=0;i<testArr.length;i++){
+sum = sum + testArr[i];
+console.log("The Num is:",testArr[i]);
+console.log("The Sum is :",sum);
+}
+...........................
+2) Challenge 2: Value * Position
+
+The Code:
+var testArr = [6,3,5,1,2,4];
+var Anas = [];
+for(var i = 0 ; i<testArr.length ; i++){
+var x = testArr[i]*i;
+Anas . push(x)
+/* console.log(Anas) */
+}
+console.log(Anas)

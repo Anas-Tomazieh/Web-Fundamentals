@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Fake Blog</title>
+    </head>
+    <body>
+        <h1>Anas Tomazieh</h1>
+        <img src="photo.jpg" alt="Anas Tomazieh photo" width="100px" height="160px">
+        <p>My Name is Anas Tomazieh</p>Iam graduated from Birzeit Unievercity in june 2020,
+        <p> Electrical Engineer department,</p> 
+        <p>Iam joint to AXSOS acadmy in Feb2021</p>
+        <p>and I hope to graduate as a Full-Stak Developer</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Year</th>
+                <th>PPG</th>
+                <th>MVP</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1990-91</td>
+                <td>31.5</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>1991-92</td>
+                <td>30.1</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>1992-93</td>
+                <td>32.6</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>1995-96</td>
+                <td>30.4</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>1996-97</td>
+                <td>29.6</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>1997-98</td>
+                <td>28.5</td>
+                <td>Yes</td>
+            </tr>
+        <tbody>
+    </table>
+    <ul>
+        <li>1984-1993 Chocogo Bulse</li>
+        <li>1995-1998 Chocogo Bulse</li>
+        <li>2001-2003 Whachimg Wezorde</li>
+    </ul>
+    <a href="http//youtube.com">Clock Here To see Vedio</a><br>
+    <label>Email:</label>
+    <input type="text"><br>
+    <input type="radio" name="selector">Yes,Please send me lot of Email
+    <input type="radio" name="selector">No,Please do not send me an Email<br>
+    <label>How did you about us</label><br>
+    <input type="radio" name="Facebook">FaceBook<br>
+    <input type="radio" name="NewsPaper">NewsPaper<br>
+    <input type="radio" name="Refoforal">Refoforal<br>
+    <input type="submit">
+    </body>
+</html>

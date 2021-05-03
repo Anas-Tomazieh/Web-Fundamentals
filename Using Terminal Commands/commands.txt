@@ -1,0 +1,49 @@
+Last login: Sat Apr 17 16:20:32 on ttys000
+macbookpro@MacBookPros-MBP ~ % pwd
+/Users/macbookpro
+macbookpro@MacBookPros-MBP ~ % ls
+Applications		Downloads		Pictures
+Creative Cloud Files	Library			Public
+Desktop			Movies
+Documents		Music
+macbookpro@MacBookPros-MBP ~ % Desktop
+zsh: command not found: Desktop
+macbookpro@MacBookPros-MBP ~ % cd
+macbookpro@MacBookPros-MBP ~ % desktop
+zsh: command not found: desktop
+macbookpro@MacBookPros-MBP ~ % cd Desktop
+macbookpro@MacBookPros-MBP Desktop % mkdir test
+macbookpro@MacBookPros-MBP Desktop % cd test
+macbookpro@MacBookPros-MBP test % touch index.html
+macbookpro@MacBookPros-MBP test % touch style.css
+macbookpro@MacBookPros-MBP test % touch commands.txt
+macbookpro@MacBookPros-MBP test % cp index.html index_2.html
+macbookpro@MacBookPros-MBP test % cd desktop
+cd: no such file or directory: desktop
+macbookpro@MacBookPros-MBP test % cd Dektop
+cd: no such file or directory: Dektop
+macbookpro@MacBookPros-MBP test % cd Desktop
+cd: no such file or directory: Desktop
+macbookpro@MacBookPros-MBP test % cd
+macbookpro@MacBookPros-MBP ~ % cdDesktop
+zsh: command not found: cdDesktop
+macbookpro@MacBookPros-MBP ~ % cd Desktop
+macbookpro@MacBookPros-MBP Desktop % mkdir destination
+macbookpro@MacBookPros-MBP Desktop % mv index_2.html ../destination
+mv: rename index_2.html to ../destination: No such file or directory
+macbookpro@MacBookPros-MBP Desktop % cd test
+macbookpro@MacBookPros-MBP test % mv index_2.html ../destination
+macbookpro@MacBookPros-MBP test % rm style.css
+macbookpro@MacBookPros-MBP test % ls
+commands.txt	index.html
+macbookpro@MacBookPros-MBP test % cd
+macbookpro@MacBookPros-MBP ~ % cd Desktop
+macbookpro@MacBookPros-MBP Desktop % rm destination
+rm: destination: is a directory
+macbookpro@MacBookPros-MBP Desktop % rm destination
+rm: destination: is a directory
+macbookpro@MacBookPros-MBP Desktop % rm - destination
+rm: -: No such file or directory
+rm: destination: is a directory
+macbookpro@MacBookPros-MBP Desktop % rm -r destination
+macbookpro@MacBookPros-MBP Desktop % 
